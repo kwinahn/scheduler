@@ -13,13 +13,13 @@ clearBtn.on('click', function () {
 
 function timeTracker() {
 	//get current hour
-	var timeNow = moment().hour();
+	let timeNow = moment().hour();
 
 	// loop over time blocks
 	$('.time-block').each(function () {
-		var hourBlock = parseInt($(this).attr('id'));
+		let hourBlock = parseInt($(this).attr('id'));
 
-		//adds css classes to hour rows depending on if it's in the present, past, or future
+		//adds css classes to hour blocks depending on if it's in the present, past, or future
 		if (hourBlock < timeNow) {
 			$(this).removeClass('future');
 			$(this).removeClass('present');

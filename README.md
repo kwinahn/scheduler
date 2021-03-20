@@ -1,6 +1,9 @@
 # Work Day Scheduler
+A simple scheduler that allows user to save different tasks on each time block.
 
-Deployed Link
+[Deployed Website] (https://kwinahn.github.io/scheduler/)
+
+![Screenshot](./assets/scheduler-ss.png)
 
 ## Criteria
 
